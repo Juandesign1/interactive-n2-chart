@@ -1,12 +1,13 @@
 {
   "name": "interactive-n2-chart",
   "version": "1.0.0",
+  "type": "module",
   "homepage": "https://juandesign1.github.io/interactive-n2-chart",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages --dist dist --message 'Deploy to GitHub Pages' --git git"
   },
   "dependencies": {
     "react": "^18.2.0",
